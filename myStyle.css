@@ -11,6 +11,13 @@ td {
         width: 100px;
 }
 
+#Bio{
+        margin-top: 30px; 
+        margin-left: 270px; 
+        margin-right: 40px; 
+        width: 800px
+}
+
 #NavBar{
         background-color: #04376C;
         border:1px solid;
