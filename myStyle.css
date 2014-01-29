@@ -20,6 +20,19 @@ td {
         margin-left: 0px;
 }
 
+#MyPic{
+        margin-top: 40px; 
+        margin-left: 10px; 
+        position: absolute
+}
+
+#Intro_Par{
+        margin-top: 50px;
+        margin-left: 370px; 
+        margin-right: 40px; 
+        width: 800px
+}
+
 .NavBar_Button{
         text-decoration: none;
         text-align: center;
@@ -67,5 +80,5 @@ th, td{
 }
 
 p, li{
-        font-size: 130%;
+        font-size: 150%;
 }
