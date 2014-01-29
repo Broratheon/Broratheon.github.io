@@ -1,0 +1,71 @@
+body {
+        /*background-image: url('Pictures/Background.jpg'); */
+        background-color: #39AECF;
+        background-repeat: no-repeat;
+        min-width: 1400px; 
+        min-height:  800px;
+}
+
+td {
+        text-align: center;
+        width: 100px;
+}
+
+#NavBar{
+        background-color: #04376C;
+        border:1px solid;
+        color: #080B74;
+        width: 100%;
+        height: 50px;
+        margin-left: 0px;
+}
+
+.NavBar_Button{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        width: 16.6%;
+        height:100px;
+        float: left;
+       
+}
+
+#wrapper{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        backgrond-color:#39AECF; 
+}
+
+a{
+        vertical-align: middle;
+        text-decoration: none;
+        color: white;
+        font-size: 130% 
+        
+}
+
+h1{
+        text-align: center;
+}
+
+#Courses{
+        width: 100%;
+        border: 1px solid;
+        border-collapse: collapse;
+        background-color: #5ED1BA;
+}
+#Cur_Projects, #Past_Projects{
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: #3F92D2;
+        
+}
+th, td{
+        border: 1px solid;
+}
+
+p, li{
+        font-size: 130%;
+}
