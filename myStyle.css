@@ -16,6 +16,7 @@ td {
         margin-left: 10%; 
         margin-right: 10%; 
         font-size: 150%;
+        padding-bottom : 150px;
 }
 
 #NavBar{
@@ -40,6 +41,8 @@ td {
         width: 800px;
         font-size: 150%;
 }
+
+
 
 .NavBar_Button{
         text-decoration: none;
@@ -69,23 +72,13 @@ h1{
         text-align: center;
 }
 
-#Courses{
-        width: 100%;
-        border: 1px solid;
-        border-collapse: collapse;
-        background-color: #5ED1BA;
-}
-#Cur_Projects, #Past_Projects{
-        width: 100%;
-        border: 1px solid black;
-        border-collapse: collapse;
-        background-color: #3F92D2;
-        
-}
-th, td{
-        border: 1px solid;
+h4 , p{
+        margin:0;
+        padding:0;
 }
 
-/*p, li{
-        font-size: 150%;
-}*/
+ul {
+        margin-top  : 0;
+        padding-top : 0;
+}
+
