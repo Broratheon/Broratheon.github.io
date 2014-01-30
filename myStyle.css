@@ -19,6 +19,11 @@ td {
         padding-bottom : 150px;
 }
 
+#Front_Image{
+        height: 440px;
+        border: 2px;
+}
+
 #NavBar{
         background-color: #04376C;
         border:1px solid;
