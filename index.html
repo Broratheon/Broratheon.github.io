@@ -4,19 +4,175 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Welcome to Hyung-seo Park's website</title>
-        <link rel="stylesheet" href="../css/foundation.css" />
-        <link rel="stylesheet" href="../css/myStyle.css" />
-        <script src="../js/vendor/modernizr.js"></script>
-        <script src="../js/myJavascript.js"></script>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="css/myStyle.css" />
+        <script src="js/jquery.js"></script>
+        <script src="js/vendor/modernizr.js"></script>
+        <script src="js/myJavascript.js"></script>
     </head>
 
 
     <body>
 
+        <div class = "row" id = "Officers">
+
+            <div class="large-12 columns">
+                <h1 id = "welcome">Welcome.</h1>
+            </div>
+
+            <div class = "large-4 columns">
+                <p> </p>
+            </div>
+
+            <div class = "large-4 columns">
+                <div>
+                    <a href = "#" data-reveal-id = "myModal"><img id = "Hyung_portrait" class = "headshot" src = "img/Headshots/HyungseoPark.png"></a>
+                </div>
+            </div>
+
+            <div class = "large-4 columns">
+            </div>
+
+            <div class="large-12 columns">
+                <!-- <div class="panel callout radius"> -->
+                    <p id ="sub_title"> My name is Hyung-seo Park and I am currently a Junior at Tufts University studying Computer Science. </p>
+
+                <!-- </div> -->
+            </div>
+
+            <div class="large-12 columns">
+                <dl class="accordion" data-accordion>
+                  <dd>
+                    <a class = "accordion_title" href="#panel1">If you want to know more about me...</a>
+                    <div id="panel1" class="content">
+                        <p>
+                            I was born in Seoul, South Korea.<br>
+                            However, I only lived in South Korea until the age of 4, at which point my family moved to Paris, France.<br>
+                            There, I attended a French primary and middle school. I hence grew up learning both Korean and French.<br><br>
+
+                            Luckily for me, my adventure did not end there. At age 12 I moved to Singapore.<br>
+                            There, I learned English by attending an international high school: the United World College of South East Asia.<br>
+                            During my high school years, I particularly enjoyed the sciences, especially physics and chemistry. I also grew fond of mathematics.
+                            <br>
+                            In May 2011, I graduated with an International Baccalaureate diploma, with a score of 43 out of 45.
+                            <br><br>
+                            
+                            In fall 2011, I started attending the School of Engineering at Tufts University. <br>
+                            Although I was going to major in Mechanical Engineering at first, I quickly realized the charm of 
+                            Computer Science when I took my first intro class. <br>
+                            It struck me that my love for technology, media and video games could be expressed in a much better fashion if I majored in Computer Science.
+                            <br> <br>
+                            My hobbies include cooking, watching movies/TV shows, gaming, calligraphy and drawing.
+                        </p>
+                    </div>
+                  </dd>
+                  <dd>
+                    <a class = "accordion_title" href="#panel2">If you want to hire me...</a>
+                    <div id="panel2" class="content">
+
+                        <h3> Personal Info </h3>
+                            <div class="resume_content">
+                                <p>Full Name: Hyung-seo Park </p>
+                            </div>
+
+                        <h3> Education </h3>
+                            <div class="resume_content">
+                                <h4> Tufts University, Medford, MA </h4>
+                                <p>Bachelor's of Science in Computer Science, May 2015. <br>
+                                GPA 3.99/4.00, Dean's List 5/5 semesters. </p>
+                            </div>
+
+                        <h3> Relevant Coursework </h3>
+                            <div class="resume_content">
+                                <p> Data Structures, Machine Structure and programming, Object Oriented Programming, Visualization, User Interface for Mobile Development, Web Programming, Computer Graphics, Algorithms, Programming Languages, Computational Theory, Probability and Statistics, Differential Equations, Linear Algebra, Numerical Linear Algebra.</p>
+                            </div>
+
+                        <h3> Professional Experience </h3>
+                            <div class="resume_content">
+
+                                <h4> Microsoft, Cambridge MA </h4>
+                                <p> Foundry Intern Summer 2014 </p>
 
 
-        <script src="../js/vendor/jquery.js"></script>
-        <script src="../js/foundation.min.js"></script>
+                                <h4> Tufts University Computer Science Department, Medford MA </h4>
+                                <p> Lead Teaching Assistant, August 2013 - Present </p>
+                                <ul>
+                                    <li> Holding office hours every week to help students understand Machine programming concepts. </li>
+                                    <li> Managing Office Hours of other Teaching Assistant to accomodate for peak hours </li>
+                                </ul>
+
+                                <h4> Google, Mountain View CA </h4>
+                                <p> Google Student Ambassador, August 2013 - December 2013 </p>
+                                <ul>
+                                    <li> Promoted Google products on Tufts Campus. </li>
+                                    <li> Facilitated communication between Google and campus officials. </li>
+                                </ul>
+
+                                <h4> AthenaHealth, Watertown MA </h4>
+                                <p> Software Developer Intern, Claim Resolution Team. June 2013 - August 2013 </p>
+                                <ul>
+                                    <li> Coded various parameters for the Claimres Rules Engine. </li>
+                                    <li> Built, tested and patched out automation rules affecting hundreds of claims </li>
+                                    <li> Updated nightly script to account for potential failure </li>
+                                </ul>
+
+                                <h4> Tufts University Office of Residential Life and Learning, Medford MA </h4>
+                                <p> Residential Assistant, August 2012 - May 2013 </p>
+                                <ul>
+                                    <li> Managed health and safety of 38 residents </li>
+                                    <li> Organized and ran community building acitivites in the dorm. </li>
+                                    <li> Communicated news and enforced school policies </li>
+                                </ul>
+
+                                <h4> Center for Engineering Education and Outreach, Tufts University, Medford MA </h4>
+                                <p> Undergraduate intern, June 2012 - August 2012 </p>
+                                <ul>
+                                    <li> Conceptualized and built a website titled "The Design Compass" that aimed to teach children the engineering process.
+                                </ul>
+                            </div>
+
+                        <h3> Skills </h3>
+                            <div class="resume_content">
+                                <h4> Technical </h4>
+                                <p> C, C++, Java, Unix, Perl, iOS development, HTML, CSS, git </p>
+
+                                <h4> Languages </h4>
+                                <p> Fluent English, French and Korean. </p>
+                            </div>
+                        
+
+                        <h3> Activities </h3>
+                            <div class="resume_content">
+                                <h4> Tufts Engineering Mentors </h4>
+                                <p> Director of IT: Web </p>
+
+                                <h4> Tau Beta Pi, Engineering Honors Society </h4>
+                                <p> Web Master </p>
+                            </div>
+
+
+                    </div>
+                  </dd>
+                  <dd>
+                    <a class = "accordion_title" href="#panel3">If you are curious about my projects...</a>
+                    <div id="panel3" class="content">
+                      Projects panel coming soon!
+                    </div>
+                  </dd>
+                  <dd>
+                    <a class = "accordion_title" href="#panel4">If you want to reach out to me...</a>
+                    <div id="panel4" class="content">
+                      <p> Email: hyungseo0107@gmail.com </p>
+                      <p> <a href="https://www.linkedin.com/profile/view?id=201544255&trk=nav_responsive_tab_profile_pic"> LinkedIn </a> </p>
+                    </div>
+                  </dd>
+                </dl>
+            </div>
+
+        </div>
+
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
         <script>
             $(document).foundation();
         </script>
