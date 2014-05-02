@@ -1,0 +1,91 @@
+#logo {
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 7.5em;
+	margin: 35px auto;
+	position: relative;
+	text-align: center;
+	color: black;
+	/*opacity: 2.0;*/
+}
+#logo_div{
+	background-image: url('../img/Assets/seal.png');
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: contain;
+	/*opacity: 0.4;*/
+}
+p, h1, h2, h3, h4, h5, h6, li{
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	
+}
+
+.resume_content{
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+h3{
+	padding-bottom: 5px;
+}
+
+h1{
+	font-size: 4.0em;
+}
+
+#sub_title, #welcome{
+	text-align: center;
+	color: rgba(255, 255, 255, 1.0);
+}
+
+.headshot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+.blurb{
+	text-align: left;
+}
+
+.content{
+	color: black;
+}
+
+.accordion_title{
+	text-align: center;
+}
+
+body{
+	background-image: url("../img/misc/background.jpg");
+	background-repeat: repeat;
+	background-size: contain;
+	/*border-top: 5%;*/
+}
+
+.large-12{
+	padding-top: 2%;
+}
+
+.row{
+	/*background-color: rgba(255, 0, 0, 1.0);*/
+	background-color: rgba(193, 198, 212, 0.4);
+	padding-top : 3%;
+	padding-bottom: 3%;
+	/*opacity: 0.1;*/
+}
+
+#past_officers_title{
+	background-image: url('../img/Assets/seal.png');
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-bottom: 10%;
+}
+
+#date_title{
+	margin-bottom: 4%;
+}
